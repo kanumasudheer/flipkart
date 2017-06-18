@@ -7,4 +7,8 @@
 		<mkdir dir = "lib"/>
 		<jar basedir = "classes" destfile = "lib/flipkart.jar"/>
 	</target>
+
+<target name = "copy">
+<copy file = "santhi.txt" todir = "sudheer"/>
+</target>
 </project>
