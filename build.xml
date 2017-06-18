@@ -3,7 +3,7 @@
 		<mkdir dir = "classes"/>
 		<javac srcdir = "src" destdir = "classes"/>
 	</target>
-	<target name = " package">
+	<target name = "package">
 		<mkdir dir = "lib"/>
 		<jar basedir = "classes" destfile = "lib/flipkart.jar"/>
 	</target>
